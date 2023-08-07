@@ -10,7 +10,7 @@ const App = () => {
   const handleLoginClick = () => {
     if (showLogin) {
       // 서버로 이메일 전송하는 로직
-      fetch('http://localhost:8080/', {
+      fetch('http://13.124.181.169:8080', {
         method: 'POST',
         body: JSON.stringify({ email }),
         headers: {

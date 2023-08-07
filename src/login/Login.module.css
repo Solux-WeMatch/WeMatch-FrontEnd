@@ -21,7 +21,7 @@
   top: 0;
   right: 0;
   border-radius: 0 var(--br-21xl) var(--br-21xl) 0;
-  background-color: #bbcff0;
+  background-color: #ccdaf1;
   width: 60%;
   height: 100%;
 }
@@ -54,6 +54,6 @@
 
 .youremail{
   position: absolute; left:60%; top:65%;
-  color: #7384B1;
+  color: #4A5F82;
   font-size: 20px;
 }

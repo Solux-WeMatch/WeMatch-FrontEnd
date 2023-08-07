@@ -25,7 +25,7 @@ const NewAccount = () => {
       password: password,
     };
 
-    fetch('서버 URL', {
+    fetch('http://13.124.181.169:8080', {
       method: 'POST',
       body: JSON.stringify(userData),
       headers: {
