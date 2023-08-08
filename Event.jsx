@@ -45,9 +45,9 @@ const Event = ({ selectedDay }) => {
       .then((data) => {
         if (data.success) {
           onAddEvent((prevEvents) => [...prevEvents, { ...newEvent, id: Date.now() }]);
-          // setEventName('');
-          // setStartSchedule('');
-          // setEndSchedule('');
+          setEventName('');
+          setStartSchedule('');
+          setEndSchedule('');
         } else {
           console.error('Error saving event:', data.message);
         }
