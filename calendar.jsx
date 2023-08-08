@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CalendarDays from './calendar-days';
 import SideBar from './side-bar';
 import './calendar.css'
+import Header from './header';
 
 export default class Calendar extends Component {
   constructor() {
@@ -35,7 +36,10 @@ export default class Calendar extends Component {
   render() {
     return (
       <div className='container'>
-       <div className='side-bar'>
+        <div className='header'>
+        <Header />
+        </div>
+        <div className='side-bar'>
           <SideBar selectedDay={this.state.selectedDay} />
         </div>
         <div className="calendar">
